@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string name = "Mhaoui Angeles";
+    std::cout << name << std::endl;
+
+    int age = 19;
+    std::cout << age << std::endl;
+
+    double lbs = 107.223;
+    std::cout << lbs << std::endl;
+
+    bool mode1 = true;
+    bool mode2 = false;
+
+    std::cout << std::boolalpha;
+    std::cout << mode1 << std::endl;
+    std::cout << mode2 << std::endl;
+
+    return 0;
+}
